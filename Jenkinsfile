@@ -1,9 +1,10 @@
 pipeline {
     agent {
-                node {
+                node ('node') {
                     
                     label 'node'
                 }
+    }
      stages {
         stage('CheckoutGit') {
             steps {
@@ -63,6 +64,5 @@ stage('deploy') {
                     }
                 }
             }    
-}
 }
 }
