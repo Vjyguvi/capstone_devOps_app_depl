@@ -27,7 +27,7 @@ pipeline {
             steps {
                 script {
                     def branchName = env.BRANCH_NAME
-                    if (branchName == 'prod') {
+                    if (branchName == 'main') {
                         sh "chmod +x build.sh"
                         sh 'sudo ./build.sh'
                        } else if (branchName == 'dev') {
@@ -44,7 +44,7 @@ stage('Push Image') {
             steps {
                 script {
                     def branchName = env.BRANCH_NAME
-                    if (branchName == 'prod') {
+                    if (branchName == 'main') {
                         sh 'docker tag proj vjyguvi/prod:papp'
                         sh 'docker push vjyguvi/prod:papp'
                     } else if (branchName == 'dev') {
