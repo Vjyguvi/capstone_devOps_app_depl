@@ -5,14 +5,18 @@
 + Bash script was created to automate the build and run processes using Dockerfile and Docker-compose files.
 # Version Control
 + Branch named 'dev' was created in Github repository using Git.
+  ```bash
+  git branch dev
+ > ![Screenshot dev branch](https://github.com/Vjyguvi/capstone_devOps_app_depl/assets/150816386/084f5c96-9307-481c-932b-e47974fe21ad) 
 + The application code has been pushed to the 'dev' branch.
+> ![Screenshot push code](https://github.com/Vjyguvi/capstone_devOps_app_depl/assets/150816386/daecece1-01d6-48ca-806b-6a2ce5439f27)
 + A .gitignore file has been created to avoid pushing unnecessary files.
 + A .dockerignore file has been created to avoid pushing unnecessary files while dockerizing.
 # Docker Hub
 + Repository named 'dev' and 'prod' was created in docker hub with public and private access, respectively.
-> screen
+> ![Screenshot docker repo](https://github.com/Vjyguvi/capstone_devOps_app_depl/assets/150816386/f805d30d-6ba3-43a8-b4dc-b06fb6b249d4)
 + Docker Hub with image
-> Screen
+> ![Screenshot docker hub](https://github.com/Vjyguvi/capstone_devOps_app_depl/assets/150816386/10773b62-dec5-47cf-82f5-59c2700dace0)
 # Pipeline using jenkins
 + Installation of jenkins.
   > Prerequisites:
@@ -37,22 +41,24 @@
   + Once Jenkins is started, open a web browser and navigate to http://localhost:8080 (replace localhost with the IP address or hostname of the server)
   >> Note port 8080 should be allowed in security group for jenkins system.
   > Login Page:
-  + scree
+  + ![Screenshot jenkins login](https://github.com/Vjyguvi/capstone_devOps_app_depl/assets/150816386/348effbe-ad56-4df8-a4b1-162f659a3b60)
   > Create a Multibranch pipeline:
-  + scree
+  + ![Screenshot multibranch project](https://github.com/Vjyguvi/capstone_devOps_app_depl/assets/150816386/8933fbee-9fea-4381-b571-833383ce1be3)
   > Auto Build Trigger:
   >> Note MultiBranch Action Triggers Plugin is required.
-  + scree
+  + ![Screenshot webhook setting 1](https://github.com/Vjyguvi/capstone_devOps_app_depl/assets/150816386/a8e94e68-d7d0-4226-b1c5-e07eb6561bc2)
+  + ![Screenshot webconfig in github](https://github.com/Vjyguvi/capstone_devOps_app_depl/assets/150816386/eadb3d36-ce1c-456c-92bf-af03c9b096c5)
+
   > Jenkins Pipeline
   + Using a Jenkinsfile, stages were created for building, pushing, and deploying on an EC2 node.
   + nscre
 # EC2 Instance
  > EC2 console
- + screen
+ + ![Screenshot ec2](https://github.com/Vjyguvi/capstone_devOps_app_depl/assets/150816386/7839fd10-55b6-411e-96d0-e601c2224c2d)
  > Security group
- + screen
+ + ![Screenshot SG inbond](https://github.com/Vjyguvi/capstone_devOps_app_depl/assets/150816386/54474da8-2ab6-463a-b839-d37a5806c868)
  > Adding an EC2 instance as a node in Jenkins.
- +
+ + ![Screenshot node added](https://github.com/Vjyguvi/capstone_devOps_app_depl/assets/150816386/bbc5e980-d8dc-4af6-9838-ecc8638d8187)
 # Monitoring:
 > screen
 # Deployed site page
