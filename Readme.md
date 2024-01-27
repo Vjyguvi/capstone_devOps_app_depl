@@ -2,6 +2,7 @@
 + Name : Vijay.B
 + Batch : DO8WD-E
 # Containerizing applications
+>> Note : Due to the application's lack of support for the latest Node.js version, I've chosen to utilize Node.js 14
 + Using a Dockerfile, the application was built on a Node.js base image, and the artifacts were then copied to an Nginx image for web access.
 + A Docker-compose file has been created to manage and run the built application.
 # Scripting
