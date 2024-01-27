@@ -17,6 +17,7 @@
 > ![Screenshot docker repo](https://github.com/Vjyguvi/capstone_devOps_app_depl/assets/150816386/f805d30d-6ba3-43a8-b4dc-b06fb6b249d4)
 + Docker Hub with image
 > ![Screenshot docker hub](https://github.com/Vjyguvi/capstone_devOps_app_depl/assets/150816386/10773b62-dec5-47cf-82f5-59c2700dace0)
+> ![Screenshot dockerhub2](https://github.com/Vjyguvi/capstone_devOps_app_depl/assets/150816386/c3952f07-4c64-4735-bf81-4148a1142159)
 # Pipeline using jenkins
 + Installation of jenkins.
   > Prerequisites:
@@ -51,7 +52,7 @@
 
   > Jenkins Pipeline
   + Using a Jenkinsfile, stages were created for building, pushing, and deploying on an EC2 node.
-  + nscre
+  + ![Screenshot pipeline](https://github.com/Vjyguvi/capstone_devOps_app_depl/assets/150816386/47040ac9-c239-43b5-9ac1-51beff90d05c)
 # EC2 Instance
  > EC2 console
  + ![Screenshot ec2](https://github.com/Vjyguvi/capstone_devOps_app_depl/assets/150816386/7839fd10-55b6-411e-96d0-e601c2224c2d)
@@ -60,6 +61,8 @@
  > Adding an EC2 instance as a node in Jenkins.
  + ![Screenshot node added](https://github.com/Vjyguvi/capstone_devOps_app_depl/assets/150816386/bbc5e980-d8dc-4af6-9838-ecc8638d8187)
 # Monitoring:
-> screen
+> ![Screenshot grafana](https://github.com/Vjyguvi/capstone_devOps_app_depl/assets/150816386/cf418c59-110d-4a54-be19-8b8615ecc6a0)
+> Email Notification Configured
+> ![Screenshot grafana email notification](https://github.com/Vjyguvi/capstone_devOps_app_depl/assets/150816386/a11bced3-5b03-4ded-9bfc-d8fb2cc682bb)
 # Deployed site page
-> Screen
+> ![Screenshot output](https://github.com/Vjyguvi/capstone_devOps_app_depl/assets/150816386/caaa79b1-155e-4af3-8dfa-c7c1a51e779b)
