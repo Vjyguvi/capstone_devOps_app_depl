@@ -1,3 +1,6 @@
+# Capstone Project
++ Name : Vijay.B
++ Batch : DO8WD-E
 # Containerizing applications
 + Using a Dockerfile, the application was built on a Node.js base image, and the artifacts were then copied to an Nginx image for web access.
 + A Docker-compose file has been created to manage and run the built application.
